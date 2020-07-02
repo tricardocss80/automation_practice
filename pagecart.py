@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from pagecommonmethods import PageCommonMethods
+from automation_practice.pagecommonmethods import PageCommonMethods
 
 
 class PageCart(PageCommonMethods):
@@ -9,6 +9,7 @@ class PageCart(PageCommonMethods):
         self.check_shipping = (By.XPATH, '//span[@class="ajax_cart_shipping_cost"]')
         self.checks_total_price_product = (By.ID, 'layer_cart_product_price')
         self.checks_total_cart_price = (By.XPATH, '//span[@class="ajax_block_cart_total"]')
+
 
 
         self.product_name = (By.ID, 'layer_cart_product_title')

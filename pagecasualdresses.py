@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from pagecommonmethods import PageCommonMethods
+from automation_practice.pagecommonmethods import PageCommonMethods
 
 
 class PageCasualDresses(PageCommonMethods):

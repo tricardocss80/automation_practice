@@ -1,6 +1,6 @@
-# automation_practice
+# Automation Practice
 Ejercicios de automatización de tienda de ropa 
-#primer ejercicio**
+primer ejercicio**
 #Dado el sitio automationpractise.com
 
 #Caso 1:
