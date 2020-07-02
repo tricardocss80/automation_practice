@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from automation_practice.pagecommonmethods import PageCommonMethods
+from pagecommonmethods import PageCommonMethods
 from selenium.webdriver.support.ui import Select
 
 

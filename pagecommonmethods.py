@@ -21,7 +21,9 @@ class PageCommonMethods:
     def wait_presence(self, locator):
         return WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(locator))
 
-    def return_cheks_wait_locator(self, locator):
-        return WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(locator)).text
+    def close_browser(self):
+        self.driver.close()
+        self.driver.quit()
+
 
 

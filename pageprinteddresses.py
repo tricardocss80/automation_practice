@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
-from automation_practice.pagecommonmethods import PageCommonMethods
+from pagecommonmethods import PageCommonMethods
 
 
 class PagePrintedDresses(PageCommonMethods):

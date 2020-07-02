@@ -5,6 +5,9 @@ __pycache__/
 
 *.exe
 
+.ide/*
+
+
 # C extensions
 *.so
 
